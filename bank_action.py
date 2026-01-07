@@ -6,3 +6,10 @@ class Customer:
         self.phone = phone
         self.accounts = accounts
         
+class Account:
+    def __init__(self):
+        pass
+    
+class Transaction:
+   def __init__(self):
+       pass 
