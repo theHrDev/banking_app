@@ -11,5 +11,10 @@ class Account:
         pass
     
 class Transaction:
-   def __init__(self):
-       pass 
+   def __init__(self,id,type,amount,data,from_account,to_account):
+       self.id = id 
+       self.type = type
+       self.amount = amount
+       self.data = data
+       self.from_account = from_account
+       self.to_account = to_account
