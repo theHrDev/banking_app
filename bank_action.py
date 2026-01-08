@@ -7,8 +7,11 @@ class Customer:
         self.accounts = accounts
         
 class Account:
-    def __init__(self):
-        pass
+    def __init__(self,account_number,balance,owner_id,transactions):
+        self.account_number = account_number
+        self.balance = balance
+        self.owner_id = owner_id
+        self.transaction = transactions
     
 class Transaction:
    def __init__(self,id,type,amount,data,from_account,to_account):
